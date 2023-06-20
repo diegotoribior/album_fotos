@@ -1,0 +1,67 @@
+.portada-cabecera {
+    text-align: center;
+    padding: 50px;
+}
+
+.portada-cabecera__titulo{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+}
+
+.portada-cabecera__subtitulo{
+    font-family: 'Comforter', cursive;
+    font-size: 35px;
+}
+
+.portada-grid{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Para centrar texto dentro una columna */
+.container{
+    display: inline-block;
+    position: relative;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 50px;
+    color: white;
+}
+/* ---- */
+
+
+.portada-album{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+}
+
+.portada-album-lanzarote{
+    background-image: url('../fotos/lanzarote.jpg');
+}
+
+.portada-album-tailandia{
+    background-image: url('../fotos/tailandia.jpg');
+}
+
+.portada-album-espana{
+    background-image: url('../fotos/spain.jpg');
+}
+
+.sombra-texto{
+    text-shadow: 0 0 4px black;
+}
+
+/* Para que el enlace ocupe toda la columna*/
+.portada-img__enlace{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* ---  */
